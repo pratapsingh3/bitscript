@@ -1,0 +1,112 @@
+.inline li {
+	display: inline;
+}
+
+.f-15 {
+	font-size: 15px;
+}
+
+.f-21 {
+	font-size: 21px;
+}
+
+.f-32 {
+	font-size: 32px;
+}
+
+.f-50 {
+	font-size: 50px;
+}
+
+.h-500 {
+	height: 500px
+}
+
+.text-gray {
+	color: #5a5a5a;
+}
+
+.text-gray1 {
+	color: #502c61
+}
+
+.text-blue {
+	color: #144376;
+}
+
+.but-gray {
+	border: solid 1px #5a5a5a;
+}
+
+.blue-bg {
+	background-color: #d4e6f9;
+}
+
+.gray-bg{
+	background-color: #ebddf1;
+}
+
+.but-pad {
+	padding: 10px 113px;
+}
+
+.banner {
+	background-image:  url('../img/slider.png');
+	background-size: cover;
+	height: 220px;
+}
+
+.licence-footer {
+	margin-top: 110px;
+}
+
+.login-footer {
+	margin-top: 205px;
+}
+
+.pass-footer {
+	margin-top: 345px;
+}
+
+.dash-footer {
+	margin-top: 10px;
+}
+
+.mylicense-footer {
+	margin-top: 280px;
+}
+
+.invoice-footer {
+	margin-top: 280px;
+}
+
+.basic button:hover {
+	background-color: #5a5a5a;
+	color: #fff;
+}
+
+.basic button {
+	color: #5a5a5a;
+	background-color: #fff;
+}
+
+.pro button:hover {
+	background-color: #2780E3;
+	color: #fff;
+}
+
+.pro button {
+	color: #2780E3;
+	background-color: #fff;
+}
+
+.Enterprise button:hover {
+	background-color: #3FB618;
+	color: #fff;
+}
+
+.Enterprise button {
+	color: #3FB618;
+	background-color: #fff;
+}
+

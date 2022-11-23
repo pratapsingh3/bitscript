@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>bitScript</title>
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		<link href="assets/fontawesome-free-5.12.0-web/css/all.css" type="text/css" rel="stylesheet">
+		<link href="assets/bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+		<link href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+		<link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
+		<link href="assets/css/mobile-style.css" type="text/css" rel="stylesheet"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="assets/fontawesome-free-5.12.0-web/js/all.js" type="text/javascript"></script>
+		<script src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="bg-dark sticky-top">
+			<div class="container text-white">
+			<div class="row p-3">
+				<div class="col-xl-7 f-21">
+					<a href="index.html" class="text-white text-decoration-none">bitScript</a>
+				</div>
+				<div class="col-xl">
+					<ul class="inline my-0">
+						<li>
+							<a href="index.html" class="text-white text-decoration-none">Home</a>
+						</li>
+						<li>
+							<a href="demo.html" class="text-white text-decoration-none pl-3">Demo</a>
+						</li>
+						<li>
+							<a href="register.html" class="text-white text-decoration-none pl-3">Order</a>
+						</li>
+						<li>
+							<a href="license.html" class="text-white text-decoration-none">License Checker</a>
+						</li>
+						<li class="dropdown">
+							<a class="btn text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Account
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">Dashboard</a>
+								<a class="dropdown-item" href="#">Setting</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="container">
+					<div class="row pt-5">
+						<div class="col-md-3">
+							<h1 class="font-weight-light">Sidebar</h1>
+							<ul class="list-group">
+								<a class="list-group-item list-group-item-action active" href="dashboard.html">Dashboard</a>
+								<a class="list-group-item list-group-item-action " href="invoice.html">Invoices</a>
+								<a class="list-group-item list-group-item-action " href="licenses.html">My licenses</a>
+							</ul>
+						</div> 
+						<div class="col-md-9">
+							<h2 class="display-4">Dashboard</h2>
+							<hr>
+							<div class="gray-bg px-3 py-3 pt-4">
+								<p class="f-15 text-gray1">
+									If you are using an email <b>@hotmail.com</b> or <b>@live.com</b> or <b>@outlook.com</b> please change
+									it for another one, because it's probably that you won't receive our emails or 
+									tickets replies (we suggest you to use a gmail or yahoo account).
+								</p>
+							</div>
+							<div class="blue-bg px-3 py-3 pt-4 mt-3 text-blue">
+								<p class="f-15 text-center text-blue">
+									Don't have a hosting or domain yet? Hire one of our partners right now and get the best service on the internet.
+									NameCheap and HostGator.
+								</p>
+							</div>
+							<div class="text-gray">
+								<p>
+									<b>Balance:</b> 0.00000000 BTC — <a href="#!" data-toggle="modal" data-target="#depositModal">Deposit</a>
+								</p>
+								<h1>Due Invoices</h1>
+							</div>
+							
+							<!-- TABLE -->
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Invoice #</th>
+										<th scope="col">Invoice Date</th>
+										<th scope="col">Total</th>
+										<th scope="col">Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>
+											<a href="/invoice/331">Invoice #331</a>
+										</th>
+										<td>Dec 11, 2019</td>
+										<td>$7.00 USD</td>
+										<td>
+											<span class="badge badge-danger">Unpaid</span>
+										</td>
+									</tr>
+									<tr>
+										<th>
+											<a href="/invoice/225">Invoice #225</a>
+										</th>
+										<td>Sep 21, 2019</td>
+										<td>$22.00 USD</td>
+										<td>
+											<span class="badge badge-danger">Unpaid</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-light dash-footer">
+			<div class="container">
+				<div class="row py-3">
+					<div class="col-xl-9 text-gray">
+						&copy; 2019 <b>bitScript</b> — <a href="#">contact@bitscript.cc</a>
+					</div>
+					<div class="col-xl text-gray">
+						Page rendered in 0.0128 seconds
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
